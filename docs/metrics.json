@@ -1,0 +1,41 @@
+{
+ "standard": {
+  "detector": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_alarm_seconds": 0
+  },
+  "threshold": {
+   "precision": 0.727,
+   "recall": 1.0,
+   "false_alarm_seconds": 60
+  },
+  "attack_type_accuracy": 1.0
+ },
+ "low_rate": {
+  "detector": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_alarm_seconds": 0
+  },
+  "threshold": {
+   "precision": 0.727,
+   "recall": 1.0,
+   "false_alarm_seconds": 60
+  },
+  "attack_type_accuracy": 1.0
+ },
+ "mimicry": {
+  "detector": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "false_alarm_seconds": 0
+  },
+  "threshold": {
+   "precision": 0.492,
+   "recall": 1.0,
+   "false_alarm_seconds": 62
+  },
+  "attack_type_accuracy": null
+ }
+}
